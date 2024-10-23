@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Studio By Classified</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Portfolio</h1>
+    </header>
+    <section class="portfolio-section">
+        <h2>Videography</h2>
+        <div class="video-gallery">
+            <iframe src="https://www.youtube.com/embed/SXq8EgVjMXM" allowfullscreen></iframe>
+            <!-- Add more videos here as needed -->
+        </div>
+
+        <h2>Photography</h2>
+        <div class="photo-gallery">
+            <img src="images/Nico's BMW.jpg" alt="Nico BMW">
+            <img src="images/123.jpg" alt="Photo 2">
+            <img src="images/2022-12-12.jpg" alt="Photo 3">
+            <img src="images/2022-12-12(17).jpg" alt="Photo 3">
+            <img src="images/2022-12-12(23).jpg" alt="Nico BMW">
+            <img src="images/2022-12-12(22).jpg" alt="Nico BMW">
+            <img src="images/2022-12-12(5).jpg" alt="Nico BMW">
+            <img src="images/2022-12-12(8).jpg" alt="Nico BMW">
+            <img src="images/2022-12-12(10).jpg" alt="Nico BMW">
+            <img src="images/2022-12-12(7).jpg" alt="Nico BMW">
+            <img src="images/DSC05423.jpg" alt="Nico BMW">
+            <img src="images//DSC03800.jpg" alt="Nico BMW">
+            <img src="images/DSC03819.jpg" alt="Nico BMW">
+            <img src="images/DSC03842.jpg" alt="Nico BMW">
+            <img src="images/DSC03851.jpg" alt="Nico BMW">
+            <img src="images/DSC03855.jpg" alt="Nico BMW">
+            <img src="images/DSC04031.jpg" alt="Nico BMW">
+            <img src="images/DSC04582.jpg" alt="Nico BMW">
+            <img src="images/DSC04588.jpg" alt="Nico BMW">
+            <img src="images/DSC03851.jpg" alt="Nico BMW">
+            <img src="images/DSC05762.jpg" alt="Nico BMW">
+            <img src="images/DSC05775.jpg" alt="Nico BMW">
+            <img src="images/DSC05910.jpg" alt="Nico BMW">
+            <img src="images/DSC05925.jpg" alt="Nico BMW">
+            <img src="images/DSC05576.jpg" alt="Nico BMW">
+            <img src="images/DSC05693.jpg" alt="Nico BMW">
+            
+
+            <!-- Add more photos here by duplicating the line above and updating the file names -->
+        </div>
+    </section>
+</body>
+</html>
+<script>
+    // Add this script at the end of the body
+    document.addEventListener("DOMContentLoaded", function() {
+        const portfolioSection = document.querySelector('.portfolio-section');
+        portfolioSection.classList.add('fade-in');
+        setTimeout(() => {
+            portfolioSection.style.opacity = 1; // Trigger the fade-in effect
+        }, 10);
+    });
+</script>
+</body>
+</html>
